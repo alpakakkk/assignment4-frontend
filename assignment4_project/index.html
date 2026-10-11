@@ -60,6 +60,36 @@
         </div>
       </form>
     </section>
+
+    <section class="mb-5">
+      <h2>Task 3: Bootstrap Validation</h2>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-6">
+          <label for="name3" class="form-label">Name</label>
+          <input id="name3" name="name" class="form-control" type="text" required>
+          <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Name is required.</div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="email3" class="form-label">Email</label>
+          <input id="email3" name="email" class="form-control" type="email" required>
+          <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Enter a valid email.</div>
+        </div>
+
+        <div class="col-12">
+          <label for="message3" class="form-label">Message</label>
+          <textarea id="message3" name="message" class="form-control" required></textarea>
+          <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Message is required.</div>
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
   </main>
   <script src="script.js"></script>
 </body>
